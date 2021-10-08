@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera prepa</title>
+</head>
+<body>
+    <!--HEADERS-->
+    <header>
+        <h1 id="titulo">Título de la página web</h1>
+        <h2>Subtítulo de la página web</h2>
+        <h3>Sub-subtítulo de la página web</h3>
+        <h4>Sub-sub-subtítulo de la página web</h4>
+        <h5>Sub-sub-sub-subtítulo de la página web</h5>
+        <h6 class="header">Sub-sub-sub-sub-subtítulo de la página web</h6>
+    </header>
+    <!--PÁRRAFO-->
+    <article>
+        <p id="párrafo">
+            <span style="color: palevioletred">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+            Quaerat rerum non est veritatis dignissimos eos nulla expedita 
+            odio eveniet ex totam dolores saepe exercitationem illo, 
+            at cupiditate dolore deserunt ipsa.
+        </p>
+    </article>
+    <div>
+        <!--LISTAS-->
+            <!--ORDENADA-->
+            <ol>
+                <li>Esta</li>
+                <li>es</li>
+                <li>una</li>
+                <li>lista</li>
+                <li>ordenada</li>
+            </ol>    
+            <!--DESORDENADA-->
+        <ul>
+            <li>Esta</li>
+            <li>es</li>
+            <li>una</li>
+            <li>lista</li>
+            <li>desordenada</li>
+        </ul>
+    </div>
+    
+    <!--SALTO DE LÍNEA-->
+    <br/>
+
+    <!--FORMULARIO-->
+    <div>
+        <form action="formulario.php" method="POST">
+            <h4>Formulario</h4>
+
+            <label for="nombre">Ingresa tu nombre</label>
+            <input type="text" name="nombre" placeholder="Ej. Liliana" id="nombre"/>
+            <br/>
+            <br/>
+
+            <label for="color">Escoge un color</label>
+            <input type="color" name="color" id="nombre"/>
+            <br/>
+            <br/>
+
+            <label for="contrasena">Ingresa tu contraseña muahaha</label>
+            <input type="password" name="contrasena" placeholder="lol" id="contrasena"/>
+            <br/>
+            <br/>
+
+            <label for="archivo">Elige un archivo</label>
+            <input type="file" name="archivo" id="archivo"/>
+            <br/>
+            <br/>
+
+            <p>Escoge los que quieras</p>
+            <input type="checkbox" name="sel_multiple" id="a" value="a"/>
+            <label for="a">a</label>
+            <input type="checkbox" name="sel_multiple" id="b" value="b"/>
+            <label for="b">b</label>
+            <input type="checkbox" name="sel_multiple" id="c" value="c"/>
+            <label for="a">c</label>
+            <br/>
+            <br/>
+
+            <p>Escoge sólo uno</p>
+            <input type="radio" name="sel_simple" id="amarillo" value="amarillo"/>
+            <label for="amarillo">amarillo</label>
+            <input type="radio" name="sel_simple" id="azul" value="azul"/>
+            <label for="azul">azul</label>
+            <input type="radio" name="sel_simple" id="rojo" value="rojo"/>
+            <label for="rojo">rojo</label>
+            <br/>
+            <br/>
+
+            <label for="texto">Mucho texto</label>
+            <br/>
+            <textarea name="mucho texto" id="texto" cols="30" rows="10" placeholder="Mucho texto"></textarea>
+            <br/>
+            <br/>
+
+            <select name="paises" id="paises">
+                <option value="">Selecciona tu país</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <br/>
+            <br/>
+
+            <input type="checkbox" name="check" id="check"/>
+            <label for="check">Acepta los términos y condiciones jaja salu2</label>
+            <br/>
+            <br/>
+
+            <button type="reset">Resetear formulario</button>
+            <button type="button">No hace nada, falta programar en JS</button>
+            <button>Enviar por default</button>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+    
+    <br/>
+    <br/>
+
+    <!--TABLA-->
+    <div>
+        <table style="border: 2px dotted palevioletred;">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Laptop</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>iPhone</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <br>
+    <br>
+
+    <div>
+        <a href="https://youtu.be/lgh6p-JySK4" target="_blank">Click para una sorpresa</a>
+    </div>
+    
+    <br>
+    <br>
+    
+    <div>
+        <img src="https://render.namemc.com/skin/3d/body.png?skin=7499751bf67bec01&model=slim&width=282&height=282" alt="Rayos, no cargó lol" height ="300">
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <a href="#titulo">Ir arriba</a>
+    </div>
+</body>
+</html>
